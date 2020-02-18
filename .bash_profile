@@ -1,5 +1,6 @@
 # ---------------------------------------# 1. TERMINAL APPEARANCE# ———————————————————
-export PS1='\h:\W \u 🤘 $ ' # changes terminal prompt - Adams-iMac:~ adambardon 🤘 $
+#export PS1='\h:\W \u 🤘 $ ' # changes terminal prompt - Adams-iMac:~ adambardon 🤘 $ - used before Catalina
+PROMPT='%F{99}%m:~ %n 🤘 $ %F{white}' # changes zsh terminal prompt - 'Adams-Hack-Pro:~ adambardon 🤘 $'
 
 alias sbp='source ~/.bash_profile' # applies changes to .bash_profile
 
@@ -22,6 +23,7 @@ alias c='clear'                             # c:            Clear terminal displ
 # ---------------------------------------# 7. iOS DEVELOPMENT# ———————————————————
 alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData' # delete derived data
 alias ff='fastlane feature'
+alias fb='fastlane beta'
 alias pi='pod install'
 
 # ---------------------------------------# 8. WEB DEVELOPMENT# ———————————————————
