@@ -28,3 +28,5 @@ alias pi='pod install'
 
 # ---------------------------------------# 8. WEB DEVELOPMENT# ———————————————————
 alias ndmn='NODE_ENV="dev" nodemon app.js'
+alias cdn='cd /Volumes/Workspace/node'
+alias cda='cd /Volumes/Workspace/anglr'
